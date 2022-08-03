@@ -146,7 +146,7 @@ check
 
 		lines=$(wc -l < algorithms.txt)
 
-		lines=$(wc -l < ip.txt) #wordcount 
+		#lines=$(wc -l < ip.txt) #wordcount 
 
 		if [ -z $algo ]; then #-z checks if the reading input is null
 
